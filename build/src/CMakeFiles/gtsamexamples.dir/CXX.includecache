@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/unaryFactor.h
+gtsam/nonlinear/NonlinearFactor.h
+-
+gtsam/base/Matrix.h
+-
+gtsam/base/Vector.h
+-
+gtsam/geometry/Pose2.h
+-
+
+/home/jason/VSLAM/gtsam-tutorial/gtsam_simple_demo/src/unaryFactor.cpp
+include/unaryFactor.h
+/home/jason/VSLAM/gtsam-tutorial/gtsam_simple_demo/src/include/unaryFactor.h
+
